@@ -7,21 +7,20 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookshop.Controllers.Receipt.ReceiptController">
    <children>
       <Button layoutX="494.0" layoutY="25.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0">
          <graphic>
             <ImageView fitHeight="30.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../Images/left-arrow%20(1).png" />
+                  <Image url="@../../Images/left-arrow%20(1).png" />
                </image>
             </ImageView>
          </graphic>
       </Button>
       <ImageView fitHeight="261.0" fitWidth="408.0" layoutX="168.0" layoutY="-23.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../Images/366191774_799000195348066_8399176440393215267_n-removebg.png" />
+            <Image url="@../../Images/366191774_799000195348066_8399176440393215267_n-removebg.png" />
          </image>
       </ImageView>
       <Label layoutX="16.0" layoutY="200.0" prefHeight="52.0" prefWidth="282.0" text="TOKEN NO:">

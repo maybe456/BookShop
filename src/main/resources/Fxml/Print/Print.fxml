@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookshop.Controllers.Print.PrintController">
    <children>
       <Label layoutX="197.0" layoutY="151.0" prefHeight="55.0" prefWidth="208.0" text="UPLOAD">
@@ -19,7 +18,7 @@
          <graphic>
             <ImageView fitHeight="39.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../Images/arrow-up.png" />
+                  <Image url="@../../Images/arrow-up.png" />
                </image>
             </ImageView>
          </graphic>
@@ -33,14 +32,14 @@
          <graphic>
             <ImageView fitHeight="30.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../Images/left-arrow%20(1).png" />
+                  <Image url="@../../Images/left-arrow%20(1).png" />
                </image>
             </ImageView>
          </graphic>
       </Button>
       <ImageView fitHeight="221.0" fitWidth="199.0" layoutX="201.0" layoutY="-18.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../Images/366191774_799000195348066_8399176440393215267_n-removebg.png" />
+            <Image url="@../../Images/366191774_799000195348066_8399176440393215267_n-removebg.png" />
          </image>
       </ImageView>
    </children>
